@@ -1,0 +1,142 @@
+body{
+    font-family:'Poppins',sans-serif;
+     
+   }
+   body::before{
+     content:'';
+     position:fixed;
+     height:100Vh;
+     width:100vw;
+     left:0;
+     top:0;
+     z-index:-1;
+     background:var(--color-darkblue);
+     background-image: linear-gradient(110deg, rgba(123, 127, 222, 0.6),
+     rgba(217, 204, 198, 0.7)),url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+   }
+   #title{
+     text-align:center;
+     color:white;
+   }
+   #description{
+     text-align:center;
+     color:white;
+     font-style:italic;
+     font-size:20px;
+   }
+   #name[type="text"]{
+    border-radius:5px;
+   }
+   #name:required{
+     background-color:#FAF9F6;
+   }
+   #email[type="email"]{
+      border-radius:5px;
+   }
+   #email:required{
+     background-color:#FAF9F6;
+   }
+   
+   .container{
+     background-color: #1b1b32;
+     width:100%;
+     height:100%;
+     margin:0 auto;
+     border-radius:10px;
+     overflow:hidden;
+     color:white;
+   
+   }
+   fieldset{
+     border:none;
+   
+   }
+   #survey-form{
+     border: 2px solid white;
+     border-radius:10px;
+   }
+   #survey-form #name{
+     font-style:italic;
+   }
+   #survey-form #email{
+     font-style:italic;
+   }
+   #survey-form #number{
+    font-style:italic;
+   } 
+   .survey-form{
+     border-radius:5px;
+     margin:0 auto 2rem auto;
+     padding:0.25rem;
+     width:100%;
+     
+   }
+   #name-label{
+     font-style:italic;
+   }
+   #email-label{
+     font-style:italic;
+   }
+   #number-label{
+     font-style:italic;
+   }
+   #survey-form #name-label{
+     font-weight:bold;
+   }
+   #survey-form #email-label{
+     font-weight:bold;
+   }
+   #survey-form #number-label{
+     font-weight:bold;
+   }
+   #name::placeholder{
+     color:grey;
+     opacity:50;
+   }
+   #email::placeholder{
+     color:grey;
+     opacity:50;
+   }
+   #number::placeholder{
+     color:grey;
+     opacity:50;
+   }
+   #dropdown{
+     font-style:italic;
+   }
+   #survey-form #dropdown{
+     font-weight:bold;
+   }
+   #survey-form .input-radio{
+     accent-color:grey;
+   }
+   #survey-form .input-checkbox{
+     accent-color:grey;
+   }
+   #survey-form textarea{
+     width:100%;
+     font-size:1.25rem;
+     border-radius:2px;
+   }
+   #submit[type="submit"]{
+     background-color:grey;
+   }
+   #survey-form #submit{
+     width:100%;
+     border-radius:2px;
+   }
+   label{
+     display:block;
+     margin: 5px 0px;
+   }
+   .input-radio{
+     margin-right:10px;
+   }
+   
+   .input-checkbox{
+   display:inline-block;   vertical-align:middle;
+   } 
+   
